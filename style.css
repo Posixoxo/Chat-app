@@ -1,0 +1,153 @@
+body{
+    margin: auto;
+    width: 60vw;
+    max-width: 1440px;
+    min-width: 375px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.673);
+  }
+
+  /* Left section */
+.bg-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%; /* Doesn't go all the way down */
+    background-color: hsl(276, 100%, 81%); /* Blue-ish */
+    border-bottom-right-radius: 900px;
+    z-index: -1;
+  }
+
+  
+  .container{
+    height: 550px;
+    width: 265px;
+    border: 1px solid transparent;
+    margin-top: 100px;
+    border-radius: 25px;
+    margin-left: 51px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .notch {
+    width: 145px;
+    height: 25px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+
+  .Green{
+    border: 1px solid transparent;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    background-color: hsl(276, 100%, 81%);
+  }
+
+  .booking{
+   text-align: center;
+  }
+
+  .circle{
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 900px;
+    position: relative;
+    bottom: 125px;
+    left: 198px;
+    background-color: black;
+  }
+
+  .seven{
+    width: 8px;
+    height: 7px;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 144px;
+    left: 205px;
+  }
+
+  .circle{
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 900px;
+    position: relative;
+    bottom: 125px;
+    left: 198px;
+    background-color: black;
+  }
+
+  .last-text{
+    font-size: 20px; 
+    margin-left: 15px; 
+    margin-right: 15px;
+  }
+
+  .hee{
+    font-size: 45px; 
+    margin-top: 90px; 
+    letter-spacing: 1px;
+  }
+
+  @media(min-width: 1024px){
+    .container{
+        height: 550px;
+        width: 265px;
+        border: 1px solid transparent;
+        margin-top: 200px;
+        border-radius: 25px;
+        margin-left: 70px;
+        position: relative;
+        overflow: hidden;
+        background-color: white;
+      }
+
+        /* Left section */
+.bg-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 130%; /* Doesn't go all the way down */
+    background-color: hsl(276, 100%, 81%); /* Blue-ish */
+    border-bottom-right-radius: 900px;
+    z-index: -1;
+  }
+
+  .booking{
+    text-align: left;
+    margin-left: 400px;
+    position: relative;
+    bottom: 450px;
+   }
+
+   .hee{
+    margin-left: 14px;
+    font-size: 35px;
+   }
+
+   .last-text{
+    font-size: 14px;
+    line-height: 23px;
+  }
+  }
+
+
+
+
